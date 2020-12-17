@@ -1,0 +1,173 @@
+<!DOCTYPE html><!--22061069_안소영-->
+<html lang="en" dir="ltr">
+  <head>
+  <style>
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.header{
+padding: 10px;
+text-align: center;
+background: pink;
+}
+
+.header h1{
+  font-size: 30px;
+}
+
+.menu {
+  clear: both;
+  height: 49px;
+  background-color: #333;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.menu a{
+  float: center;
+  display: inline;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.menu a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.leftcolumn{
+  float: left;
+  width: 100%;
+}
+
+
+.fakeimg{
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.fakeimg2{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card {
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+}
+
+.card2 {
+background-color: #78c1ff;
+padding: 20px;
+margin-top: 20px;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer{
+  padding: 20px;
+  text-align: left;
+  background: pink;
+  margin-top: 20px;
+}
+
+#customer{
+  float: right;
+  margin-top: 15px
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+h1,h2,h3,h4,h5,p{
+  text-align: center;
+}
+
+#p1{
+  text-align: center;
+  margin-top: 40px;
+}
+
+  </style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  <div class="header">
+<a href="index.html"><img src="./img/로고.png"></a>
+  </div>
+
+  <div class="menu">
+  <a href="index2.html">콘텐츠 디자인</a>
+  <a href="index3.html">영상 디자인</a>
+  <a href="index4.html">3D 디자인</a>
+  <a href="index5.html">콘텐츠 프로그래밍</a>
+  </div>
+
+  <a style="display:scroll;position:fixed;bottom:20px;right:20px;" href="#"><img src="./img/위.png"></a>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <br><h1>ANAN</h1>
+        <h3>ansoyoung portfolio website</h3>
+        <div class="fakeimg"><img src="./img/메인.jpg">
+        </div>
+        <p id='p1'>과제 아이디어를 뽑기 위해 우주에서 단련하고 있는 나</p>
+        <br><p>업로드 2020/12/16</p><br>
+      </div>
+      <div class="card2">
+
+        <br><h2>안소영의 portfolio에 어서오세요!</h2>
+        <br><h4>저의 작품을 보고 협업을 신청하고 싶으신가요?</h4>
+        <div class="fakeimg2"><img src="./img/나2.jpg">
+        </div>
+        <p id='p1'>항상 새로운 동업자를 기다리고 있습니다!</p>
+        <br><p>call : 010-8915-8171</p><br>
+      </div>
+  </div>
+</div>
+
+<div class="footer">
+<img src="./img/푸터1.png">
+<div id="customer">
+  <a href="https://grafolio.naver.com/ansy0507" target='_blank'><img src="./img/그라폴리오.png" style="margin-right:40px;"></a>
+</div>
+</div>
+
+  </body>
+</html>
